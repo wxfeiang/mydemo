@@ -1,0 +1,520 @@
+
+<!DOCTYpE >
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>甘肃棋院官网</title>
+    <link rel="stylesheet" href="/Public/Home/qixie/css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <script type="text/javascript" src="/Public/Home/qixie/js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/qixie/js/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var $chkurl = "/index.php?s=/Public/loginChk.html";
+            $.get($chkurl,function(data){
+                //alert(data);
+                if (data.status == 1) {
+                    $('.complaints').show();
+                }else {
+                    $('.complaints').hide();		}
+            },'json');
+        });
+
+    </script>
+
+</head>
+
+<body>
+<!DOCTYpE >
+<script type="text/javascript">
+
+    $(function(){
+
+
+
+        var $chkurl = "/index.php?s=/Public/loginChk.html";
+        $.get($chkurl,function(data){
+            //alert(data);
+            if (data.status == 1) {
+                $('#top_login_ok').show();
+
+                $('#top_login_no').hide();
+                //$('#top_login_ok').find('span');
+                $('.show').html('欢迎您，'+data.nickname);
+            }else {
+                $('#top_login_ok').hide();
+                $('#top_login_no').show();
+            }
+        },'json');
+    });
+</script>
+<div class="top">
+    <div class="top-wrapper wrapper-top">
+        <div class="logo left">
+            <a href="http://www.gansuqiyuan.com">
+
+                <i></i>
+                <!-- <img src="/Public/Home/qixie/images/logo.png"> -->
+            </a>
+        </div>
+        <div class="register right">
+            <div class="land">
+                <!--登录前-->
+
+                <div id="top_login_no">
+                    <ul class="land-before right">
+                        <li class="left">
+                            <a href="/index.php?s=/Home/Public/login.html">
+                                <input  type="button"  class="Board" value="登陆" />
+                            </a>
+
+                        </li>
+                        <li class="left">
+                            <a href="/index.php?s=/Home/Public/register.html">
+                                <input  type="button" class="forecabin" value="注册" />
+                            </a>
+
+
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div id="top_login_ok" >
+                    <ul class="land-before land-after right">
+                        <li class="left land-name">
+                            <!-- <ul class="infoList">
+                                <li class="clone show" ></li>
+                            </ul> -->
+
+                            <div id="demo" class="qimo8">
+                                <div class="qimo">
+                                    <div id="demo1">
+                                        <ul>
+                                            <li class="show">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="demo2"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="left person">
+
+                            <a href="/index.php?s=/Home/Member/index.html">
+                                <input  type="button"  class="board" value="个人中心" />
+                            </a>
+
+                        </li>
+                        <li class="left">
+                            <a href="/index.php?s=/Home/Public/logout.html">
+                                <input  type="button" class="forecabin" value="退出" />
+                            </a>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tel right">
+                <!-- <h1>免费客服热线</h1> -->
+                <h1>联系电话</h1>
+                <h3>
+                    <p class="region">0931-</p>
+                    <p class="number">0931-8488083</p>
+                    <p class="number">15294110445</p>
+                    <i class="top_tel"></i>
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="nav-wrapper">
+
+    <ul class="nav ">
+        <li id="m1" class="m on">
+            <h3><a target="_self" href="http://www.gansuqiyuan.com">首　页</a></h3>
+        </li>
+        <li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/1.html">走进棋院</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/5.html">通知公告</a></li><li><a href="/index.php?s=/List/index/cid/2.html">棋院简介</a></li><li><a href="/index.php?s=/List/index/cid/3.html">荣誉资质</a></li><li><a href="/index.php?s=/List/index/cid/4.html">棋院文化</a></li><li><a href="/index.php?s=/List/index/cid/6.html">联系我们</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/7.html">棋类培训</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/33.html">围棋</a></li><li><a href="/index.php?s=/List/index/cid/35.html">国际象棋</a></li><li><a href="/index.php?s=/List/index/cid/34.html">象棋</a></li><li><a href="/index.php?s=/List/index/cid/38.html">国际跳棋</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/8.html">围棋</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/9.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/49.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/11.html">围棋培训</a></li><li><a href="/index.php?s=/List/index/cid/59.html">比赛成绩</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/16.html">国际象棋</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/17.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/52.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/18.html">国象培训</a></li><li><a href="/index.php?s=/List/index/cid/60.html">比赛成绩</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/12.html">象棋</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/13.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/14.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/15.html">象棋培训</a></li><li><a href="/index.php?s=/List/index/cid/61.html">比赛成绩</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/28.html">国际跳棋</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/29.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/30.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/31.html">国跳培训</a></li><li><a href="/index.php?s=/List/index/cid/62.html">比赛成绩</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/24.html">五子棋</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/25.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/54.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/26.html">五子棋培训</a></li><li><a href="/index.php?s=/List/index/cid/63.html">比赛成绩</a></li>						</ul>
+        </li><li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/List/index/cid/20.html">牌类</a></h3>
+            <ul class="sub">
+                <li><a href="/index.php?s=/List/index/cid/21.html">新闻动态</a></li><li><a href="/index.php?s=/List/index/cid/22.html">赛事活动</a></li><li><a href="/index.php?s=/List/index/cid/23.html">牌类培训</a></li><li><a href="/index.php?s=/List/index/cid/64.html">比赛成绩</a></li>						</ul>
+        </li>                <li class="s"></li>
+        <li id="m2" class="m">
+            <h3><a target="_self" href="/index.php?s=/Member/cansai.html">赛事报名</a></h3>
+        </li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="tab wrapper">
+        <!--banner-->
+        <div class="focusBox left">
+            <ul class="pic">
+                <li><a href="javascript:void(0);"><img src="/uploads/img1/20161018/580632896b6a4.jpg!760X310.jpg" title="banner1"/></a></li><li><a href="javascript:void(0);"><img src="/uploads/img1/20161018/580632c983d85.jpg!760X310.jpg" title="banner4"/></a></li><li><a href="javascript:void(0);"><img src="/uploads/img1/20161018/580632b13633b.jpg!760X310.jpg" title="banner3"/></a></li><li><a href="javascript:void(0);"><img src="/uploads/img1/20161018/580632a1b5a36.jpg!760X310.jpg" title="banner2"/></a></li>
+            </ul>
+            <ul class="hd">
+                <li></li><li></li><li></li><li></li>					</ul>
+        </div>
+
+        <!--switchTab-->
+
+        <div class="slideTxtBox left slideTab">
+            <div class="hd">
+                <ul>
+                    <li><a href="/index.php?s=/List/index/cid/5.html" target="_self">通知公告</a></li>
+                    <li><a href="/index.php?s=/List/index/cid/57.html" target="_self">新闻动态</a></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><span class="date">[2017-10-16]</span><a href="/index.php?s=/Show/index/cid/5/id/532.html" target="_self"><p>热烈祝贺甘肃棋院荣获“群众体育先进单位”</p><i>[详情]</i></a></li><li><span class="date">[2017-06-26]</span><a href="/index.php?s=/Show/index/cid/5/id/416.html" target="_self"><p>甘肃棋院成立职业围棋队</p><i>[详情]</i></a></li><li><span class="date">[2017-05-25]</span><a href="/index.php?s=/Show/index/cid/5/id/380.html" target="_self"><p>关于推荐评选全国群众体育象棋项目先进单位通知</p><i>[详情]</i></a></li><li><span class="date">[2017-04-26]</span><a href="/index.php?s=/Show/index/cid/5/id/341.html" target="_self"><p>5月围棋赛程:人机大战乌镇上演 新奥杯半决赛展开</p><i>[详情]</i></a></li><li><span class="date">[2017-04-17]</span><a href="/index.php?s=/Show/index/cid/5/id/327.html" target="_self"><p>2017“金立杯”中国围棋甲级联赛日程</p><i>[详情]</i></a></li><li><span class="date">[2017-04-14]</span><a href="/index.php?s=/Show/index/cid/5/id/328.html" target="_self"><p>“高港杯”全国象棋青年大师赛棋手名单公示</p><i>[详情]</i></a></li><li><span class="date">[2017-04-05]</span><a href="/index.php?s=/Show/index/cid/5/id/313.html" target="_self"><p>第二届“弈品杯”全国国际象棋公开赛成绩册</p><i>[详情]</i></a></li><li><span class="date">[2017-04-04]</span><a href="/index.php?s=/Show/index/cid/5/id/312.html" target="_self"><p>中国国际象棋协会初级教练员培训班（扶风）通知</p><i>[详情]</i></a></li>						</ul>
+                <ul>
+                    <li><span class="date">[2017-11-24]</span><a href="/index.php?s=/Show/index/cid/9/id/561.html" target="_blank"><p>59+1连胜!超越自我!符合预期身份公开</p><i>[详情]</i></a></li><li><span class="date">[2017-11-22]</span><a href="/index.php?s=/Show/index/cid/13/id/562.html" target="_blank"><p>全国象棋大棋圣战开幕 “旷代棋王”胡荣华出席</p><i>[详情]</i></a></li><li><span class="date">[2017-11-20]</span><a href="/index.php?s=/Show/index/cid/9/id/560.html" target="_blank"><p>梦百合杯韩国棋手会师决赛 俞斌：小将仍需磨练</p><i>[详情]</i></a></li><li><span class="date">[2017-11-19]</span><a href="/index.php?s=/Show/index/cid/9/id/559.html" target="_blank"><p>黑嘉嘉助阵梦百合杯半决赛 中韩对决均战成1-1平</p><i>[详情]</i></a></li><li><span class="date">[2017-11-17]</span><a href="/index.php?s=/Show/index/cid/9/id/554.html" target="_blank"><p>梦百合杯半决赛六盘水开幕 中国小将冲击世界冠军</p><i>[详情]</i></a></li><li><span class="date">[2017-11-15]</span><a href="/index.php?s=/Show/index/cid/13/id/555.html" target="_blank"><p>AMAZING！象棋在纽约市立大学引惊叹</p><i>[详情]</i></a></li><li><span class="date">[2017-11-14]</span><a href="/index.php?s=/Show/index/cid/29/id/556.html" target="_blank"><p>“一带一路”国跳邀请赛落幕 中国队获团体季军</p><i>[详情]</i></a></li><li><span class="date">[2017-11-13]</span><a href="/index.php?s=/Show/index/cid/9/id/557.html" target="_blank"><p>LG杯柯洁谢尔豪江维杰团灭韩国 井山留日本火种</p><i>[详情]</i></a></li>						</ul>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="tab wrapper">
+        <!--手风琴特效-->
+        <div class="accordion left">
+            <div class="hasMoreTab">
+                <div class="hd">
+								<span class="more">
+
+					               <a href="/index.php?s=/List/index/cid/7.html" target="_self">更多>></a>
+								</span>
+                    <ul>
+
+                        <li>棋类培训</li>
+                    </ul>
+                </div>
+                <div class="bd">
+
+                    <div class="conWrap">
+
+
+                        <div class="con">
+                            <div class="con-img left">
+                                <img src="/Public/Home/qixie/images/qiyuan-img1.png" />
+                            </div>
+                            <div class="con-conWrap left">
+                                <div class="sideMenu">
+                                    <ul class="infoList">
+                                        <li>
+                                            <h1><a href="/index.php?s=/Show/index/cid/33/id/453.html">弈博雅围棋2017年秋季班课程安排 </a><span class="sideMenu-date">[2017-08-10]</span></h1>
+                                            <p>2017秋季光源大厦部开学时间安排及收费表http://www.gsyby.com/view.php?classid=203&amp;aid...<i><a href="/index.php?s=/Show/index/cid/33/id/453.html">[详情]</a></i></p>
+                                        </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/33/id/397.html">弈博雅围棋2017年暑假班课程安排 </a><span class="sideMenu-date">[2017-06-07]</span></h1>
+                                        <p>2017年暑假铁路局（光源部、工贸部）课程安排及收费表http://www.gsyby.com/view.php?classid=203&a...<i><a href="/index.php?s=/Show/index/cid/33/id/397.html">[详情]</a></i></p>
+                                    </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/35/id/398.html">甘肃棋院少儿国跳培训部暑假课程安排 </a><span class="sideMenu-date">[2017-06-06]</span></h1>
+                                        <p>2017暑假国象课程安排一、静宁路部：时间：每周六上午10:00-11:30教室：18楼教室老师：王玮?? 助教收费：240元/月二、工贸大...<i><a href="/index.php?s=/Show/index/cid/35/id/398.html">[详情]</a></i></p>
+                                    </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/7/id/267.html">弈博雅围棋2017年春季班课程安排 </a><span class="sideMenu-date">[2017-02-10]</span></h1>
+                                        <p>2017年春季光源大厦部开学时间安排及收费表http://www.gsyby.com/view.php?classid=203&amp;ai...<i><a href="/index.php?s=/Show/index/cid/7/id/267.html">[详情]</a></i></p>
+                                    </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/73/id/235.html">甘肃棋院少儿国跳培训部寒假课程安排 </a><span class="sideMenu-date">[2016-12-16]</span></h1>
+                                        <p>?收费：500元（寒假班）本期共15节课上课时间：每周一至周五下午16:00—18:00 ? （1月9日-22、2月13日-17日）上课地点...<i><a href="/index.php?s=/Show/index/cid/73/id/235.html">[详情]</a></i></p>
+                                    </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/72/id/234.html">甘肃棋院少儿象棋培训部课程安排 </a><span class="sideMenu-date">[2016-12-16]</span></h1>
+                                        <p>上课地址：皋兰路周家庄14号801室上课时间：周六周日下午14:00-16:00上课内容：象棋杀法，象棋残局，象棋中局，象棋布局，记忆力等收...<i><a href="/index.php?s=/Show/index/cid/72/id/234.html">[详情]</a></i></p>
+                                    </li><li>
+                                        <h1><a href="/index.php?s=/Show/index/cid/71/id/233.html">甘肃棋院少儿国象培训部课程安排 </a><span class="sideMenu-date">[2016-12-16]</span></h1>
+                                        <p>国际象棋1班：上课时间：每周六晚上6:30-8:10带课老师：鹿昱收费标准：240元/月（半年收费）上课地点：通渭路小学北侧天银大厦403室...<i><a href="/index.php?s=/Show/index/cid/71/id/233.html">[详情]</a></i></p>
+                                    </li>															</ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <!--txtMarquee-top-->
+        <div class="accordion recent-events left">
+
+            <div class="hasMoreTab">
+
+                <div class="hd">
+								<span class="more">
+
+					               <a href="/index.php?s=/List/index/cid/58.html" target="_self">更多>></a>
+
+									<a href="/index.php?s=/List/index/cid/56.html" target="_self">更多>></a>
+
+								</span>
+                    <ul>
+                        <li>赛事活动</li>
+                        <li>比赛成绩</li>
+                    </ul>
+                </div>
+                <div class="bd">
+
+
+                    <div class="txtMarquee-top">
+                        <ul class="infoList">
+                            <li><span class="date">[2017-11-13]</span><a href="/index.php?s=/Show/index/cid/58/id/553.html" target="_blank"><p>棋盟杯·第四届甘肃省大学生棋类锦标赛在兰举行</p><i>[详情]</i></a></li><li><span class="date">[2017-11-12]</span><a href="/index.php?s=/Show/index/cid/49/id/552.html" target="_blank"><p>2017年冬季兰州市少儿围棋考级赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-10-24]</span><a href="/index.php?s=/Show/index/cid/58/id/537.html" target="_blank"><p>热烈祝贺甘肃省2017年高校棋类优秀社团评选活动顺利举行！</p><i>[详情]</i></a></li><li><span class="date">[2017-10-23]</span><a href="/index.php?s=/Show/index/cid/49/id/536.html" target="_blank"><p>兰州市第九届“禄元居·敦煌杯”围棋公开赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-10-16]</span><a href="/index.php?s=/Show/index/cid/58/id/531.html" target="_blank"><p>“兰静杯”2017甘肃省第五届少儿四棋考级赛 竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-07-16]</span><a href="/index.php?s=/Show/index/cid/14/id/437.html" target="_blank"><p>中国旅游标志之都?武威?2017“武威农商银行杯”象棋公开赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-07-13]</span><a href="/index.php?s=/Show/index/cid/49/id/433.html" target="_blank"><p>“振辉杯”2017年甘肃省少儿围棋公开赛暨平凉市少儿围棋锦标赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-07-10]</span><a href="/index.php?s=/Show/index/cid/52/id/432.html" target="_blank"><p>兰州市第八届运动会国际象棋比赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-07-10]</span><a href="/index.php?s=/Show/index/cid/14/id/431.html" target="_blank"><p>兰州市第八届运动会象棋比赛竞赛规程</p><i>[详情]</i></a></li><li><span class="date">[2017-07-10]</span><a href="/index.php?s=/Show/index/cid/49/id/430.html" target="_blank"><p>兰州市第八届运动会围棋比赛竞赛规程</p><i>[详情]</i></a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="txtMarquee-top">
+
+                        <ul class="infoList">
+                            <li><span class="date">[2017-11-06]</span><a href="/index.php?s=/Show/index/cid/56/id/542.html" target="_blank"><p>“兰静杯”2017甘肃省第五届少儿四棋考级赛名次表</p><i>[详情]</i></a></li><li><span class="date">[2017-10-30]</span><a href="/index.php?s=/Show/index/cid/56/id/540.html" target="_blank"><p>二〇一七年甘肃省政法系统第一届运动会棋类比赛（决赛）成绩表</p><i>[详情]</i></a></li><li><span class="date">[2017-08-26]</span><a href="/index.php?s=/Show/index/cid/59/id/471.html" target="_blank"><p>二〇一七年暑季全省围棋比赛喜报</p><i>[详情]</i></a></li><li><span class="date">[2017-06-19]</span><a href="/index.php?s=/Show/index/cid/59/id/404.html" target="_blank"><p>“贝尔安亲杯”2017夏季少儿围棋考级赛A组成绩</p><i>[详情]</i></a></li><li><span class="date">[2017-06-19]</span><a href="/index.php?s=/Show/index/cid/59/id/403.html" target="_blank"><p>“贝尔安亲杯”2017夏季少儿围棋考级赛B组成绩</p><i>[详情]</i></a></li><li><span class="date">[2017-06-19]</span><a href="/index.php?s=/Show/index/cid/59/id/402.html" target="_blank"><p>“贝尔安亲杯”2017夏季少儿围棋考级赛C组成绩</p><i>[详情]</i></a></li><li><span class="date">[2017-05-20]</span><a href="/index.php?s=/Show/index/cid/60/id/370.html" target="_blank"><p>第十三届全国运动会群众比赛国际象棋项目甘肃区选拔赛暨甘肃省少儿国际象棋等级赛比赛成绩</p><i>[详情]</i></a></li><li><span class="date">[2017-05-19]</span><a href="/index.php?s=/Show/index/cid/61/id/372.html" target="_blank"><p>全国象棋业余棋王赛甘肃赛区老年赛暨甘肃棋院成立22周年元老赛名次表</p><i>[详情]</i></a></li><li><span class="date">[2016-12-19]</span><a href="/index.php?s=/Show/index/cid/59/id/252.html" target="_blank"><p>2016年冬季少儿围棋考级赛A组成绩</p><i>[详情]</i></a></li><li><span class="date">[2016-12-19]</span><a href="/index.php?s=/Show/index/cid/59/id/251.html" target="_blank"><p>2016年冬季少儿围棋考级赛B组成绩</p><i>[详情]</i></a></li>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <a  href="/index.php?s=/Member/cansai.html" class="enter"><img src="/Public/Home/qixie/images/li-img111.png"></a>
+
+        </div>
+
+    </div>
+    <div class="tab_18 wrapper ">
+        <div class="activity left" id="activity">
+            <div class="activity-title">
+                <a href="/index.php?s=/List/index/cid/40.html"></a>
+            </div>
+            <ul class="activity-pic-show">
+                <li>
+                    <a href="/index.php?s=/Show/index/cid/41/id/46.html">
+                        <img src="/uploads/img1/20161126/583921811260a.JPG" title="“兰静杯”选手风采">
+                        <span>“兰静杯”选手风采</span>
+                    </a>
+                </li><li>
+                <a href="/index.php?s=/Show/index/cid/41/id/7.html">
+                    <img src="/uploads/img1/20161113/582812db4bfc5.jpg" title=" 甘肃棋院支持高校棋类社团建设座谈会举行">
+                    <span> 甘肃棋院支持高校棋类社团建设座谈会举行</span>
+                </a>
+            </li><li>
+                <a href="/index.php?s=/Show/index/cid/41/id/3.html">
+                    <img src="/uploads/img1/20161008/57f90b2c57a87.JPG" title="“兰静杯”2016甘肃省第四届少儿四棋考级赛成功举行">
+                    <span>“兰静杯”2016甘肃省第四届少儿四棋考级赛成功举行</span>
+                </a>
+            </li><li>
+                <a href="/index.php?s=/Show/index/cid/41/id/10.html">
+                    <img src="/uploads/img1/20161130/583e76050175e.jpg" title="纹枰论道">
+                    <span>纹枰论道</span>
+                </a>
+            </li><li>
+                <a href="/index.php?s=/Show/index/cid/41/id/9.html">
+                    <img src="/uploads/img1/20161130/583e779049171.jpg" title="认真比赛的小选手们">
+                    <span>认真比赛的小选手们</span>
+                </a>
+            </li><li>
+                <a href="/index.php?s=/Show/index/cid/41/id/8.html">
+                    <img src="/uploads/img1/20161130/583e7a5ad8902.jpg" title="学员的课堂风采">
+                    <span>学员的课堂风采</span>
+                </a>
+            </li>					</ul>
+        </div>
+
+        <div class="recent-events left abouts">
+            <div class="title">
+
+                <h1 class="left">棋院简介</h1>
+                <a href="/index.php?s=/List/index/cid/2.html" target="_self" class="more right">更多>></a>
+            </div>
+            <div class="abouts-content">
+                <img src="/Public/Home/qixie/images/abouts.png">
+                <div class="abouts-describe">
+                    <p  maxlength="18">甘肃棋院成立于1995年，主要开展棋牌类比赛和培训交流等活动，是甘肃省民政厅批准成立，甘肃省体育总会业务主管的全省唯一举办&quot;五棋一牌”综合项目的社会组织。甘肃棋院成立以来，先后成功举办过“全国象棋大师‘精英赛”、“全国省市冠军赛”“全国名人赛”、“兰州地区琴棋书画联袂大奖赛”、“国际象棋西部行”、“象棋大师进农村”、 “2014中国棋牌西部行”等一系列赛事活动，受到了棋牌爱好者的喜爱。棋							 <i><a href="/index.php?s=/List/index/cid/2.html">[详情]</a></i></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="foot">
+    <div class="wrapper foot-wrapper">
+        <div class="link-friends">
+            <h1>友情链接：</h1>
+            <!-- <div class="left"> -->
+            <p><i>.</i><a href="http://www.qipai.org.cn/">中国棋牌网</a></p><p><i>.</i><a href="http://www.weiqi.org.cn/">中国围棋协会</a></p><p><i>.</i><a href="http://chess.sport.org.cn/">中国国际象棋协会</a></p><p><i>.</i><a href="http://www.xiangqi.org.cn/">中国象棋协会</a></p><p><i>.</i><a href="http://cda.cmsa.cn/">中国国际跳棋协会</a></p><p><i>.</i><a href="http://www.gsstyzh.com/">甘肃省体育总会</a></p>					<!-- </div> -->
+
+        </div>
+        <div class="copyright">
+					<span class="copyright-address">
+						<!-- <p>2016 甘肃棋院-版权所有</p> -->
+						<p>座机：0931-8488083 </p>
+
+						<p>手机：15294110445(李老师) </p>
+						<p>邮箱：282656016@qq.com</p>
+						<p>地址：兰州市城关区庆阳路272号西北大厦3楼</p>
+
+						<p>备案号：陇ICP备16003021号</p>
+					</span>
+            <div class="clearfix"></div>
+            <span class="copyright-address">
+						<p>Copyright &copy;2016 甘肃棋院-版权所有 All Rights Reserved </p>
+						<p> 本站由<a href="http://www.yejuzhi.com" target="_blank">兰州网站建设</a><a href="http://www.yejuzhi.com" target="_blank">业聚质</a>提供技术支持</p>
+
+					</span>
+
+
+
+        </div>
+    </div>
+</div>
+<script>
+
+
+    var demo = document.getElementById("demo");
+    var demo1 = document.getElementById("demo1");
+    var demo2 = document.getElementById("demo2");
+    demo2.innerHTML = document.getElementById("demo1").innerHTML;
+
+    function Marquee() {
+        if(demo.scrollLeft - demo2.offsetWidth >= 0) {
+            demo.scrollLeft -= demo1.offsetWidth;
+        } else {
+            demo.scrollLeft++;
+        }
+    }
+    var myvar = setInterval(Marquee, 30);
+    demo.onmouseout = function() {
+        myvar = setInterval(Marquee, 30);
+    }
+    demo.onmouseover = function() {
+        clearInterval(myvar);
+    }
+
+
+    <!--  jQuery(".foot").slide({mainCell:".link-friends div",autoPlay:true,effect:"leftMarquee",vis:9,interTime:50}); -->
+
+</script>
+
+
+<div id="online_qq_layer" show="1" style="right: 0px; display: block;">
+    <div id="online_qq_tab">
+        <div class="online_icon">
+            <a title="联系我们" id="floatTrigger" href="javascript:void(0);"></a>
+        </div>
+    </div>
+    <div id="onlineService">
+        <div class="online_windows overz">
+            <div class="online_w_top"> </div>
+            <!--online_w_top end-->
+            <div class="online_w_c overz">
+                <div class="online_bar collapse" id="onlineSort1">
+                    <h2> <a href="javascript:;">在线技术支持</a> </h2>
+                    <div class="online_content overz" id="onlineType1" style="display: block;">
+                        <ul class="overz">
+                            <li>
+                                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=986144055&site=qq&menu=yes"><img border="0" src="/Public/Home/qixie/images/v1.jpg" alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=154301601&site=qq&menu=yes"><img border="0" src="/Public/Home/qixie/images/v2.jpg" alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=282656016&site=qq&menu=yes"><img border="0" src="/Public/Home/qixie/images/v3.jpg" alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a>
+                            </li>
+                            <li>电话：15294110445</li>
+                        </ul>
+                    </div>
+                    <!--online_content end-->
+                </div>
+                <!--online_bar end-->
+                <div class="online_bar collapse" id="onlineSort2">
+                    <h2> <a href="http://www.gansuqiyuan.com/index.php?s=/List/index/cid/6.html">联系我们</a> </h2>
+                    <!--<div class="online_content overz" id="onlineType2" style="display: block;">
+                        <ul class="overz">
+
+                            <li><a>联系我们</a></li>
+                        </ul>
+                    </div>-->
+                </div>
+                <!--online_bar end-->
+                <div class="online_bar collapse" id="onlineSort3">
+                    <h2> <a href="javascript:;">扫一扫，体验功能</a> </h2>
+                    <div class="online_content overz" id="onlineType3" style="display: block;"> <img src="/Public/Home/qixie/images/qrcode.jpg" style="display: block;margin: 0 auto 5px;width: 90px"> </div>
+                </div>
+                <!--online_bar end-->
+            </div>
+            <!--online_w_c end-->
+            <div class="online_w_bottom"> </div>
+            <!--online_w_bottom end-->
+        </div>
+        <!--online_windows end-->
+    </div>
+</div>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="/Public/Home/qixie/js/index_page.js"></script>
+
+
+</html>

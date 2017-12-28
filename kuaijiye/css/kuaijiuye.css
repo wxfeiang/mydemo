@@ -1,0 +1,165 @@
+.kj-header {
+  height: 55px; }
+  .kj-header .kj-logo a img {
+    margin-top: 7px; }
+  .kj-header .kj-logo a span {
+    font: 14px/55px "MicrosoftYaHei"; }
+  .kj-header .kj-logo .kj-tel {
+    margin-left: 6px;
+    font: 18px/44px "MicrosoftYaHei"; }
+
+/* footer */
+.kj-footer .fot-state {
+  padding-top: 50px;
+  height: 110px;
+  text-align: center;
+  font: 12px/24px "Microsoft YaHei"; }
+  .kj-footer .fot-state .st {
+    height: 60px; }
+
+/* banner */
+.kj-banner {
+  background: url("../images/one-banner.png") no-repeat center top; }
+  .kj-banner .bant {
+    height: 570px;
+    background: url("../images/one-bg_03.jpg") no-repeat center top; }
+    .kj-banner .bant img {
+      width: 840px;
+      margin: 38px 0 0 40px; }
+
+/*kj-one */
+.kj-one {
+  background: url("../images/two-banner1_02.jpg") no-repeat center top; }
+  .kj-one .one-bg {
+    overflow: hidden;
+    padding-top: 40px;
+    width: 1020px;
+    height: 575px;
+    background: url("../images/two-banner.jpg") no-repeat center top; }
+
+/*kj-two */
+.kj-two {
+  background: url("../images/two-banner2.jpg") no-repeat center top; }
+  .kj-two .two_bg {
+    padding-top: 124px;
+    height: 576px;
+    background: url("../images/two-banner3_02.jpg") no-repeat center top; }
+    .kj-two .two_bg .two-title {
+      margin: 0 auto;
+      width: 765px;
+      height: 49px;
+      background: url("../images/two-title.png") no-repeat center top; }
+    .kj-two .two_bg .two-small {
+      margin: 40px auto 0;
+      background: url("../images/two-title1.png") no-repeat center top;
+      color: #fff100; }
+    .kj-two .two_bg .two-list {
+      margin: 43px 0 0 60px; }
+      .kj-two .two_bg .two-list li {
+        margin-bottom: 42px;
+        padding: 0 0 0 140px;
+        width: 310px;
+        height: 80px;
+        font: 30px/46px "Microsoft YaHei";
+        color: #fff; }
+      .kj-two .two_bg .two-list .libg_1 {
+        background: url("../images/two-smal1.png") no-repeat left center; }
+      .kj-two .two_bg .two-list .libg_2 {
+        background: url("../images/two-smal2.png") no-repeat left center; }
+      .kj-two .two_bg .two-list .libg_3 {
+        background: url("../images/two-smal3.png") no-repeat left center; }
+      .kj-two .two_bg .two-list .libg_4 {
+        background: url("../images/two-smal4.png") no-repeat left center; }
+
+/*kj-three */
+.kj-three {
+  background: url("../images/three-banner.jpg") no-repeat center top; }
+  .kj-three .three-bg {
+    padding-top: 220px;
+    height: 750px;
+    background: url("../images/three-banner1_02.jpg") no-repeat center top; }
+    .kj-three .three-bg .three-title {
+      margin: 0 auto;
+      width: 450px;
+      height: 49px;
+      background: url("../images/three-titl.png") no-repeat center top; }
+    .kj-three .three-bg .three-small {
+      margin: 30px auto 0;
+      background: url("../images/three-tit2.png") no-repeat center top;
+      color: #ffa200; }
+    .kj-three .three-bg .three-list {
+      margin: 36px 0 0 38px; }
+      .kj-three .three-bg .three-list li {
+        margin-bottom: 52px;
+        padding: 60px 0 0 214px;
+        width: 264px;
+        height: 120px;
+        font: 26px/36px "Microsoft YaHei"; }
+      .kj-three .three-bg .three-list .thlbg1 {
+        background: url("../images/three-smal1.png") no-repeat left top; }
+      .kj-three .three-bg .three-list .thlbg2 {
+        background: url("../images/three-smal2.png") no-repeat left top; }
+      .kj-three .three-bg .three-list .thlbg3 {
+        background: url("../images/three-smal3.png") no-repeat left top; }
+      .kj-three .three-bg .three-list .thlbg4 {
+        background: url("../images/three-smal4.png") no-repeat left top; }
+
+/*kj-four */
+.kj-four {
+  background: url("../images/four-banner.jpg") no-repeat center top; }
+  .kj-four .four-bg {
+    padding-top: 214px;
+    height: 708px;
+    font-size: 24px;
+    background: url("../images/four-banner2_02.jpg") no-repeat center top;
+    color: #fff; }
+    .kj-four .four-bg .four-title {
+      margin: 0 auto;
+      width: 694px;
+      height: 49px;
+      background: url("../images/four-titl.png") no-repeat center top; }
+    .kj-four .four-bg .four-p1 {
+      margin: 46px 0 59px;
+      padding-left: 40px;
+      line-height: 48px; }
+      .kj-four .four-bg .four-p1 strong {
+        font-weight: bold; }
+      .kj-four .four-bg .four-p1 span {
+        color: #fff100; }
+    .kj-four .four-bg .four-p2 {
+      padding: 14px 64px;
+      height: 80px;
+      line-height: 36px;
+      color: #fff100; }
+
+.kj-four2 {
+  background: url("../images/four-banner3.jpg") no-repeat center top; }
+  .kj-four2 .four-bg2 {
+    padding-top: 33px;
+    height: 466px; }
+    .kj-four2 .four-bg2 .four2-title {
+      margin: 0 auto;
+      width: 490px;
+      height: 53px;
+      background: url("../images/k-tit.png") no-repeat center top; }
+    .kj-four2 .four-bg2 .four2-small {
+      margin: 38px 0 0 0;
+      font: 36px/48px "Microsoft YaHei";
+      text-align: center; }
+    .kj-four2 .four-bg2 .four-QR {
+      margin: 58px auto 0;
+      padding-top: 172px;
+      width: 172px;
+      height: 48px;
+      font: 16px/48px "Microsoft YaHei";
+      text-align: center;
+      background: url("../images/k-erweima.png") no-repeat center top; }
+
+/*kj-fotright */
+.kj-float {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -113px; }
+
+/*# sourceMappingURL=kuaijiuye.css.map */
